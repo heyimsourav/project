@@ -1,0 +1,14 @@
+<h1>welcome</h1>
+
+<form method="POST" action='entry'>
+    {%csrf_token%}
+    <h3>Name:</h3>
+    <textarea name="name" id="0" cols="30" rows="10"></textarea><br>
+    <h3>Roll:</h3><br>
+    <textarea name="Roll" id="1" cols="20" rows="10"></textarea><br>
+    <input type="submit">
+</form>
+
+<form action='show' method='GET'>
+    <button type='submit'> show db</button>
+    </form>
