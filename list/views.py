@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.apps import apps
-from models import namedetail
+from .models import namedetail
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
